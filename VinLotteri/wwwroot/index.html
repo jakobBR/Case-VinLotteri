@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinlotteri</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Vinlotteri</h1>
+
+        <!-- Kjøp lodd -->
+        <form id="buy-ticket-form">
+            <label for="ticket-number">Loddnummer:</label>
+            <input type="number" id="ticket-number" required>
+            <br>
+            <label for="buyer-name">Navn:</label>
+            <input type="text" id="buyer-name" required>
+            <br>
+            <button type="button" id="buy-ticket-button">Kjøp lodd</button>
+        </form>
+
+        <!-- Trekk vinner button -->
+        <h2>Trekk en vinner</h2>
+        <button id="draw-winner-button">Trekk vinner</button>
+
+        <!-- Liste alle lodd button -->
+        <h2>Alle lodd</h2>
+        <button id="fetch-tickets-button">Vis lodd</button>
+        <ul id="ticket-list"></ul>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

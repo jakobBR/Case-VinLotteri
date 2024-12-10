@@ -1,0 +1,6 @@
+@VinLotteri_HostAddress = http://localhost:5210
+
+GET {{VinLotteri_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
